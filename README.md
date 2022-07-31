@@ -21,7 +21,9 @@
 
 ## Experimentation
 
-- All Output files of the 2nd and the 3rd experiment can be accessed from this [link](https://drive.google.com/drive/folders/1K2OIiy2jOkLnDX9FfJmxFNWM8AQbO3ZF?usp=sharing), including saved models and csv files. 
+- All Output files of the 2nd and the 3rd experiment can be accessed from this [link](https://drive.google.com/drive/folders/1K2OIiy2jOkLnDX9FfJmxFNWM8AQbO3ZF?usp=sharing), including saved models and csv files.
+
+- `Distillation temperature_2.2.ipynb` is the code for demonstrating report section 2.2
 
 ####  MNIST - Image Classification - Fully Connected Neural Network (report section 4.1)
 1. Run the code with command: `python3 experiment_4.1.py`.
