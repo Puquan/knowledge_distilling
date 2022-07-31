@@ -17,16 +17,19 @@ The network is referenced from https://arxiv.org/pdf/1503.02531v1.pdf
 learning_rate=0.0001
 torch.manual_seed(0)
 
+##### change this part to use different temperature
 temp = 7
 drop_out=0.3
-# hard_loss
 alpha = 0.5
 batchSize=32
+#####
+
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.backends.cudnn.benchmark = True
-train_dataset = torchvision.datasets.MNIST(root="mnist_dataset1/",train=True,transform=transforms.ToTensor(),download=True)
-test_dataset = torchvision.datasets.MNIST(root="mnist_dataset1/",train=False,transform=transforms.ToTensor(),download=True)
+train_dataset = torchvision.datasets.MNIST(root="mnist_dataset/",train=True,transform=transforms.ToTensor(),download=True)
+test_dataset = torchvision.datasets.MNIST(root="mnist_dataset/",train=False,transform=transforms.ToTensor(),download=True)
 
 
 
