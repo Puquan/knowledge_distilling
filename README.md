@@ -9,3 +9,6 @@ COMP9417 group project
 4. `cd repo`
 5. `pip install -r requirements.txt`
 6. `jupyter lab`
+
+
+https://drive.google.com/file/d/17zYxp_FfcVrkRd3UJb-uakfc4ddME0gA/view?usp=sharing
